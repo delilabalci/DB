@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+        
+    <head >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;500;800&display=swap" rel="stylesheet">
+        <title style="font-family: 'Manrope'; font-size: medium ;">About</title>
+        <link rel="shortcut icon" type="image/png" href="folder/favicon.png">
+    </head>
+
+    <body>
+       
+   <section class="showcase "> 
+       <header> <h2 class="logo" style="font-family: 'Manrope'; font-size: 10pt; font-weight: 900;"> Delila Balci</h2>
+    <div class="toggle"> </header>
+    <img src="folder/posterINVERT.jpg" alt="">
+    <div class="overlay"> </div>
+
+    <div class="text" > 
+        <h2 style="font-family: 'Manrope'; font-weight: 600; font-size: 2em; "> About </h2>
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+        <h3 style="font-family: 'Manrope'; font-weight: 500; font-size: 1em;">  
+           </h3>
+          
+        <p style="font-family: 'Manrope'; font-weight: 500;">  </p>
+       
+       
+   </section>
+<divc class="menu"> 
+    <ul> 
+        <li> <a href="index.html"  style="font-family: 'Manrope'; font-weight: 500;">Home</a></li>
+        <li> <a href="projects.html"  style="font-family: 'Manrope'; font-weight: 500;">Projects</a></li>
+        <li> <a href="contact.html" class="active"style="font-family: 'Manrope'; font-weight: 500;">About</a></li>
+    </ul>
+</div>
+   
+<script>
+    const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+</script>
+</body>
+</html>

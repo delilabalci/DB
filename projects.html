@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+        
+    <head >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;500;800&display=swap" rel="stylesheet">
+        <title style="font-family: 'Manrope'; font-size: medium ;">Projects</title>
+        <link rel="shortcut icon" type="image/png" href="folder/favicon.png">
+      
+    </head>
+
+    <body>
+        <section class="showcase "> 
+            <header> <h2 class="logo" style="font-family: 'Manrope'; font-size: 10pt; font-weight: 900;"> Delila Balci</h2>
+         <div class="toggle"> </div></header>
+         
+         <div class="overlay"> </div>
+         <div class="text"  > 
+            <h2 style="font-family: 'Manrope'; font-weight: 600; font-size: 2em; "> Soon</h2>
+            <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+            <h3 style="font-family: 'Manrope'; font-weight: 500; font-size: 1em;"> Some projects are already available <a href="https://www.instagram.com/delila.balci/" style="font-weight: 500; ">@delila.balci</a></h3>
+            <p style="font-family: 'Manrope'; font-weight: 500;">  </p>
+
+        </div>
+        </section>
+        <divc class="menu"> 
+            <ul> 
+                <li> <a href="index.html"  style="font-family: 'Manrope'; font-weight: 500;">Home</a></li>
+                <li> <a href="projects.html" class="active" style="font-family: 'Manrope'; font-weight: 500;">Projects</a></li>
+                <li> <a href="contact.html" style="font-family: 'Manrope'; font-weight: 500;">About</a></li>
+            </ul>
+        </div>
+        
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+              const showcase = document.querySelector('.showcase');
+        
+              menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+              })
+        </script>
+
+    </body>
+    </html>
