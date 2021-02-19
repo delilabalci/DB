@@ -224,7 +224,7 @@ text a h3 :hover{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 .text{
-      bottom: 280px;
+      bottom: 260px;
 }
 }
 
