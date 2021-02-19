@@ -219,6 +219,9 @@ text a h3 :hover{
    }
      
 }
+@media (max-width: 375px)
+    {
+        bottom: 240px;}
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
