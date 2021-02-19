@@ -207,12 +207,9 @@ text a h3 :hover{
 
 @media(max-width: 798px){
     .showcase,
-    .showcase header {
-                   
+    .showcase header {                  
     }
-        .text{
-      
-       
+        .text{            
     }
    .text h2{
       
@@ -220,9 +217,15 @@ text a h3 :hover{
    .text h3{
        font-size: 0.2em;
    }
-   
-   
+     
 }
-
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.text{
+      bottom: 280px;
+}
+}
 
 
