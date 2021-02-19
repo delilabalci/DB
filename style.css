@@ -212,7 +212,7 @@ text a h3 :hover{
         .text{            
     }
    .text h2{
-      
+      bottom: 220px;
    } 
    .text h3{
        font-size: 0.2em;
